@@ -33,7 +33,7 @@ jobs:
         if: ${{ always() }}
         uses: actions/checkout@v2
         with:
-          repository: PixelOS-Devices/kernel_xiaomi_ginkgoo
+          repository: PixelOS-Devices/kernel_xiaomi_ginkgo
           path: kernel
           
       - name: Build
