@@ -33,7 +33,7 @@ jobs:
         if: ${{ always() }}
         uses: actions/checkout@v2
         with:
-          repository: ghostrider-reborn/android_kernel_xiaomi_ginkgo
+          repository: PixelOS-Devices/kernel_xiaomi_ginkgoo
           path: kernel
           
       - name: Build
